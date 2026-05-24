@@ -32,3 +32,7 @@ Data Product
 ```
 
 Logged in as **Alex Chen** by default. Use **Open incident** on a failing pipeline check to create and assign an incident, or manage incidents on the Incidents page.
+
+## Azure Static Web Apps
+
+This project uses **Vite**, which outputs to `dist` (not Create React App’s `build`). GitHub Actions workflows under `.github/workflows/azure-static-web-apps-*.yml` must set `output_location: "dist"`.
